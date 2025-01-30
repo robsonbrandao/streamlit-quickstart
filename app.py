@@ -27,8 +27,8 @@ def get_value(val,my_dict):
       
 app_mode = st.sidebar.selectbox('Selecione a Página',['Home','Prediction'])
 if app_mode=='Home':
-    st.title('Início :')
-    st.image('hipster_loan-1.jpg') 
+    st.title('')
+    st.image('RB.png') 
     
   
 elif app_mode =='Prediction': 
